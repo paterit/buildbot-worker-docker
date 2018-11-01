@@ -18,5 +18,5 @@ RUN apt-get update && \
     apt-get install -y docker-ce
 
 RUN pip install --upgrade pip && \
-    pip install docker-compose==1.22
+    pip install docker-compose==1.23
 
