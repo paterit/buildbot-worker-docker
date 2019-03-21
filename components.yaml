@@ -1,0 +1,11 @@
+buildbot-worker:
+  component-type: docker-image
+  current-version: v1.1.0
+  docker-repo: buildbot
+  filter: /\d+\.\d+\.\d+$/
+  files: [Dockerfile]
+docker-compose:
+  component-type: pypi
+  current-version: !!str 1.23
+  files: [Dockerfile]
+  filter: /^\d+\.\d+\.\d$/
