@@ -4,6 +4,7 @@ buildbot-worker:
   docker-repo: buildbot
   filter: /\d+\.\d+\.\d+$/
   files: [Dockerfile]
+  prefix: v
 docker-compose:
   component-type: pypi
   current-version: !!str 1.23
