@@ -18,4 +18,4 @@ RUN apt-get update && \
     apt-get install -y docker-ce=18.06.3~ce~3-0~ubuntu  
 
 RUN pip install --upgrade pip && \
-    pip install docker-compose==1.23.2
+    pip install docker-compose==1.24.0
