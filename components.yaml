@@ -9,7 +9,7 @@ buildbot-worker:
   prefix: v
 docker-compose:
   component-type: pypi
-  current-version: 1.25.0
+  current-version: 1.27.4
   files:
   - Dockerfile
   filter: /^\d+\.\d+\.\d$/
