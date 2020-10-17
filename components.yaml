@@ -1,11 +1,11 @@
 buildbot-worker:
   component-type: docker-image
-  current-version: v2.1.0
+  current-version: v2.8.4
   docker-repo: buildbot
   files:
   - Dockerfile
   filter: /\d+\.\d+\.\d+$/
-  next-version: v2.1.0
+  next-version: v2.8.4
   prefix: v
 docker-compose:
   component-type: pypi
@@ -13,4 +13,4 @@ docker-compose:
   files:
   - Dockerfile
   filter: /^\d+\.\d+\.\d$/
-  next-version: 1.25.0
+  next-version: 1.27.4
